@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/unregisteredUsers/locale/de_DE/locale.xml
+  *
+ * Copyright (c) 2016 Language Science Press
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the de_DE (German) locale.
+  -->
+
+<locale name="de_DE" full_name="German">
+
+	<message key="plugins.generic.unregisteredUsers.displayName">Unregistered Users Plugin</message>
+	<message key="plugins.generic.unregisteredUsers.description">Verwaltet unregistrierte Personen</message>
+	<message key="plugins.generic.title.unregisteredUsers">Unregistrierte Personen</message>
+	<message key="plugins.generic.unregisteredUsers.addUnregisteredGroup">Personengruppe hinzufügen</message>
+	<message key="plugins.generic.unregisteredUsers.groupName">Name der Gruppe</message>
+	<message key="plugins.generic.unregisteredUsers.groups.title">Unregistrierte Gruppen</message>
+	<message key="plugins.generic.unregisteredUsers.users.title">Unregistrierte Personen</message>
+	<message key="plugins.generic.unregisteredUsers.firstName">Vorname</message>
+	<message key="plugins.generic.unregisteredUsers.lastName">Nachname</message>
+	<message key="plugins.generic.unregisteredUsers.email">Email</message>
+	<message key="plugins.generic.unregisteredUsers.ompUsername">OMP-Benutzername</message>
+	<message key="plugins.generic.unregisteredUsers.users.noneCreated">Es wurden noch keine Personen angelegt.</message>
+	<message key="plugins.generic.unregisteredUsers.groups.noneCreated">Es wurden noch keine Gruppen angelegt.</message>
+	<message key="plugins.generic.unregisteredUsers.groupName">Name</message>
+	<message key="plugins.generic.unregisteredUsers.notes">Anmerkungen</message>
+	<message key="plugins.generic.unregisteredUsers.addUnregisteredUser">Person hinzufügen</message>
+  	<message key="plugins.generic.unregisteredUsers.group.manageUsers.add">Person hinzufügen</message>
+  	<message key="plugins.generic.unregisteredUsers.group.manageUsers.remove">Person entfernen</message>
+  	<message key="plugins.generic.unregisteredUsers.showUsers">Personen anzeigen</message>
+  	<message key="plugins.generic.unregisteredUsers.showGroups">Gruppen anzeigen</message>
+  	<message key="plugins.generic.unregisteredUsers.groupNameRequired">Es muss ein Gruppenname angegeben werden.</message>
+  	<message key="plugins.generic.unregisteredUsers.firstNameRequired">Es muss ein Vorname angegeben werden.</message>
+  	<message key="plugins.generic.unregisteredUsers.lastNameRequired">Es muss ein Nachname angegeben werden.</message>
+  	<message key="plugins.generic.unregisteredUsers.intro">Fügen Sie Gruppen oder Personen hinzu. Im Einstellungbereich der Gruppen können Sie den Gruppen Personen zuordnen und sie wieder entfernen.</message>
+  	<message key="plugins.generic.unregisteredUsers.hintImportExport">Um Gruppen und Personen zu importieren/exportieren installieren Sie das Unregistered Users Import Export Plugin und </message>
+  	<message key="plugins.generic.unregisteredUsers.linkToImportExport">folgen Sie diesem Link.</message>
+  	<message key="plugins.generic.unregisteredUsers.inNoGroup"> gehört noch keiner Gruppe an.</message>
+  	<message key="plugins.generic.unregisteredUsers.noUsersInGroup">Dieser Gruppe sind noch keine Personen zugeordnet.</message>
+
+  	<message key="plugins.generic.unregisteredUsers.tooltip.editGroup">Gruppendaten editieren</message>
+  	<message key="plugins.generic.unregisteredUsers.tooltip.addUser">Dieser Gruppe eine Person hinzufügen.</message>
+  	<message key="plugins.generic.unregisteredUsers.tooltip.removeUser">Eine Person aus dieser Gruppe entfernen.</message>
+  	<message key="plugins.generic.unregisteredUsers.tooltip.showUsers">Alle Personen in dieser Gruppe anzeigen.</message>
+  	<message key="plugins.generic.unregisteredUsers.tooltip.removeUser">Eine Person aus dieser Gruppe entfernen.</message>
+  	<message key="plugins.generic.unregisteredUsers.tooltip.addUnregisteredGroup">Eine neue Gruppe erstellen.</message>
+  	<message key="plugins.generic.unregisteredUsers.tooltip.editUser">Personendaten editieren.</message>
+  	<message key="plugins.generic.unregisteredUsers.tooltip.addUnregisteredUser">Eine neue Person erstellen.</message>
+  	<message key="plugins.generic.unregisteredUsers.tooltip.showGroups">Alle Gruppen anzeigen, denen die Peron zugeordnet ist.</message>
+
+</locale>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

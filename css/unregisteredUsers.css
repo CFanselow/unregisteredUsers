@@ -1,0 +1,26 @@
+/*
+ * plugins/generic/unregisteredUsers/css/unregisteredUsers.css
+ *
+ * Copyright (c) 2016 Language Science Press
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+*/
+
+.unregistered-container {
+	background-color:#fff !important;
+	padding:32px;
+	border: 1px solid #bbb;
+	margin-bottom: 20px !important;
+}
+
+/* table when showing users of individual groups */
+.unregisteredUsers td, .unregisteredUsers th {
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #999;
+}
+.unregisteredUsers th {
+	font-weight:bold;
+}
+
+
+
