@@ -37,7 +37,7 @@ class UnregisteredUsersHandler extends Handler {
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->assign('pageTitle', 'plugins.generic.title.unregisteredUsers');
 		$templateMgr->assign('userRoles', $userRoles); // necessary for the backend sidenavi to appear
-		$templateMgr->assign('url',	$dispatcher->url($request, ROUTE_PAGE, null,$page,
+		$templateMgr->assign('url',	$dispatcher->url($request, ROUTE_PAGE, null,'management',
 					'importexport', array('plugin', 'UnregisteredUsersIEImportExportPlugin')));
 
 		$templateMgr->display($unregisteredUsersPlugin->getTemplatePath().'unregisteredUsers.tpl');
