@@ -6,7 +6,7 @@
  *
 */
 
-.unregistered-container {
+#unregisteredGroupsGridContainer, #unregisteredUsersGridContainer {
 	background-color:#fff !important;
 	padding:32px;
 	border: 1px solid #bbb;

@@ -18,16 +18,12 @@
 <a href="{$url}">{translate key="plugins.generic.unregisteredUsers.linkToImportExport"}</a></p>
 
 {url|assign:unregisteredGroupsGridUrl router=$smarty.const.ROUTE_COMPONENT component="plugins.generic.unregisteredUsers.controllers.grid.UnregisteredGroupsGridHandler" op="fetchGrid" escape=false}
+{load_url_in_div id="unregisteredGroupsGridContainer" url=$unregisteredGroupsGridUrl}
 
-<div class="unregistered-container">
-	{load_url_in_div id="unregisteredGroupsGridContainer" url=$unregisteredGroupsGridUrl}
-</div>
 
 {url|assign:unregisteredUsersGridUrl router=$smarty.const.ROUTE_COMPONENT component="plugins.generic.unregisteredUsers.controllers.grid.UnregisteredUsersGridHandler" op="fetchGrid" escape=false}
+{load_url_in_div id="unregisteredUsersGridContainer" url=$unregisteredUsersGridUrl}
 
-<div class="unregistered-container">
-	{load_url_in_div id="unregisteredUsersGridContainer" url=$unregisteredUsersGridUrl}
-</div>
 
 {strip}
 		{include file="common/footer.tpl"}
